@@ -1,9 +1,55 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "id": "3",
+      "name": "Coca Cola",
+      "price": 300,
+      "items": 1
+    },
+    {
+      "id": "2",
+      "name": "Pepsi",
+      "price": 200,
+      "items": 1
+    },
+    {
+      "id": "1",
+      "name": "Chipsy",
+      "price": 100,
+      "items": 5
+    },
+    {
+      "id": "4",
+      "name": "Fanta",
+      "price": 400,
+      "items": 1
+    }
+  ]
 }
